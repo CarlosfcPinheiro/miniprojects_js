@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C7C8CC;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 35rem;
+    height: auto;
+
+    background-color: #F2EFE5;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    border-color: #1f1f1f;
+    border-style: solid;
+}
+
+.box .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box h1{
+    margin-top: 14px;
+
+    font-weight: 500;
+}
+
+.box hr{
+    color: #C7C8CC;
+    margin-top: 14px;
+    width: 32.5rem;
+}
+
+.box .content{
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.box .content p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.box .content .rect-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.rect-input .icon-box{
+    padding: 0.4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: #B4B4B8;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+
+.rect-input input{
+    width: 30rem;
+    outline: none;
+
+}
+
+i{
+    color: #1f1f1f;
+}
+
+#submit{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 500;
+
+    padding: 0.3rem;
+
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-color: #B4B4B8;
+    border-width: 0.1rem;
+
+    margin-top: 18px;
+}
+
+#message{
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-weight: 500;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
